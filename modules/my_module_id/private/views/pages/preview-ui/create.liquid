@@ -1,0 +1,11 @@
+---
+layout: modules/<my_module_id>/main
+slug: modules/<my_module_id>/preview-ui/create
+response_headers: >
+  {
+    "X-Frame-Options": null,
+    "Content-Security-Policy": "frame-ancestors https://*.siteglide.com"
+  }
+authorization_policies:
+ - modules/siteglide_system/module_is_in_admin
+---
