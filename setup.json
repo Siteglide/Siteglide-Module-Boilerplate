@@ -2,7 +2,7 @@
 	{
 		"id": <my_module_id>,
 		"type": "module",
-		"slug": "<my_module_slug>",
+		"slug": "module_<my_module_id>",
 		"detail": false,
 		"detail_template": "templates/blank_page",
 		"detail_default_layout": "default",
