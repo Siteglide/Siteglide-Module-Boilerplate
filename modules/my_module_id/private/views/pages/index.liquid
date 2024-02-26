@@ -1,9 +1,10 @@
 ---
-layout: modules/module_id/main
-slug: modules/module_id/index
+layout: modules/<my_module_id>/main
+slug: modules/<my_module_id>/index
 response_headers: >
   {
-    "X-Frame-Options": null
+    "X-Frame-Options": null,
+    "Content-Security-Policy": "frame-ancestors https://*.siteglide.com"
   }
 authorization_policies:
  - modules/siteglide_system/module_is_in_admin
